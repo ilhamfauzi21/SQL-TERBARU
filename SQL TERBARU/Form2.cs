@@ -15,7 +15,7 @@ namespace SQL_TERBARU
     public partial class Form2 : Form
     {
         private string stringConnection = "data source = TRIPLECENTRE\\kampus;" +
-            "database=Data_Mahasiswa;multipleActiveResultSets=true;user ID= sa; Password = 123";
+            "database=Data_Mahasiswa;multipleActiveResultSets=true;user ID= sa; Password = Ir";
         private SqlConnection koneksi;
         private string kstr;
 
@@ -93,7 +93,7 @@ namespace SQL_TERBARU
         }
         private void FormDataProdi_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form1 hu = new form();
+            Form1 hu = new Form1();
             hu.Show();
             this.Hide();
         }
