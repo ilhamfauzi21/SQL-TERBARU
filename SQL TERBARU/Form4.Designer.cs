@@ -100,6 +100,7 @@
             this.cbMahasiswa.Name = "cbMahasiswa";
             this.cbMahasiswa.Size = new System.Drawing.Size(131, 28);
             this.cbMahasiswa.TabIndex = 5;
+            this.cbMahasiswa.SelectedIndexChanged += new System.EventHandler(this.cbMahasiswa_SelectedIndexChanged);
             // 
             // cbStatusMahasiswa
             // 
@@ -156,6 +157,7 @@
             this.btnClear.TabIndex = 19;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSave
             // 
@@ -165,6 +167,7 @@
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // Form4
             // 
